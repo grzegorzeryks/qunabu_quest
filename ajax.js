@@ -1,5 +1,3 @@
-// Ajax Asynchronous	JavaScript	and	XML	–	jest metodą,	która	pozwala	nam	na	odpytanie serwera	i	podmiany	części	treści	bez przeładowania	całej	strony
-
 $(document).ready(function() {
   var showbtn = $('.btn');
 
@@ -10,7 +8,7 @@ $(document).ready(function() {
       email: "grzegorzeryks@gmail.com",
       phone: "695279382",
       cover_letter: "",
-      urls:["https://github.com/grzegorzeryks","https://grzegorzeryks.github.io/sarmackistyl/"]
+      urls: ["https://github.com/grzegorzeryks", "https://grzegorzeryks.github.io/sarmackistyl/"]
     };
     var json = JSON.stringify(mojObiekt);
     console.log(json);
